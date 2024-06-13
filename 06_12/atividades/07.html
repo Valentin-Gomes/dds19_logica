@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title> 07 </title>
+        <script>
+            //Escreva um algoritmo que leia 10 números e conte quantos são positivos e quantos são negativos.
+
+            let num = []
+            let pos = 0
+            let neg = 0
+
+            for(x = 0; x < 10; x++){
+                num[x] = window.prompt("Digite um número");
+                num[x] = Number(num[x]);
+
+                if(num[x] >= 0){
+                    pos = pos + 1
+                }
+                else{
+                    neg = neg + 1
+                }
+            }
+
+            console.log(pos, "Números positivos")
+            console.log(neg, "Números negativos")
+
+
+        </script>
+    </head>
+</html>

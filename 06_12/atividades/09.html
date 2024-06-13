@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title> 09 </title>
+        <script>
+            // Crie um algoritmo que leia 10 números e armazene em um array. Em seguida, calcule e exiba a soma de todos os números armazenados.
+
+            let num = []
+            let soma = 0
+
+            for(x = 0; x < 10; x++){
+                num[x] = window.prompt("Digite um número")
+                num[x] = Number(num[x])
+            }
+
+            for(x = 0; x < 10; x++){
+                soma = soma + num[x]
+            }
+
+            console.log("A soma é de", soma)
+
+        </script>
+    </head>
+</html>

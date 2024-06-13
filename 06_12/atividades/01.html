@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title> 01 </title>
+        <script>
+            //1. Escreva um algoritmo que calcule a média de quatro notas e determine se o aluno foi aprovado (média >= 7), em recuperação (média >= 5 e < 7) ou reprovado (média < 5).
+              let notaUm
+              let notaDois
+              let notaTres
+              let notaQuatro
+              let media
+
+              notaUm = window.prompt("Digite a primeira nota");
+              notaUm = Number(notaUm);
+
+              notaDois = window.prompt("Digite a segunda nota");
+              notaDois = Number(notaDois);
+
+              notaTres = window.prompt("Digite a terceira nota");
+              notaTres = Number(notaTres);
+
+              notaQuatro = window.prompt("Digite a quarta nota");
+              notaQuatro = Number(notaQuatro);
+
+              media = (notaUm + notaDois + notaTres + notaQuatro) / 4
+              console.log(media)
+
+              if(media >= 7){
+                console.log("Aprovado")
+              }
+              else if(media >= 5){
+                console.log("Recuperação")
+              }
+              else{
+                console.log("Reprovado")
+              }
+                
+
+        </script>
+    </head>
+</html>

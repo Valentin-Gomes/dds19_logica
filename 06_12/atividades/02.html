@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title> 02 </title>
+        <script>
+            //Desenvolva um programa que leia a idade de uma pessoa e determine a sua categoria: infantil (0-12 anos), adolescente (13-17 anos), adulto (18-59 anos) ou idoso (60 anos ou mais).
+
+            let idade
+
+            idade = window.prompt("Digite sua idade");
+            idade = Number(idade);
+
+            if(idade >= 60){
+                console.log("Usuário idoso")
+            }
+            else if(idade >= 18){
+                console.log("Usuário adulto")
+            }
+            else if(idade >= 13){
+                console.log("Usuário adolescente")
+            }
+            else{
+                console.log("Usuário infantil")
+            }
+        
+        </script>
+    </head>
+</html>
